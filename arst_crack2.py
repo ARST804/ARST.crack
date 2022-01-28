@@ -409,7 +409,7 @@ def main():
 	print(" [5] Find number details (2018 database)\n")
 	print(" [6] Generate access token")
 	print("")
-	os.system('xdg-open https://t.me/shadow-hackr')
+	os.system('xdg-open https://www.facebook.com/link.dea.ki.korba.ami.420')
 	log_sel()
 def log_sel():
 	sel = raw_input(" Choose an option: ")
